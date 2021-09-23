@@ -14,11 +14,12 @@ int main(int argc, char const *argv[])
 
     if (sexo == 'H')
     {
-
+        printf("Homem ");
         printf("Seu peso ideal: %f\n", (72.7 * altura) - 58);
     }
-    else if (sexo == 'M')
+    else
     {
+        printf("Mulher");
         printf("Seu peso ideal: %f\n", (62.1 * altura) - 44.7);
     }
     return 0;
