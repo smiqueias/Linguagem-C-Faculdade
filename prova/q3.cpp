@@ -2,13 +2,8 @@
 using namespace std;
 int main()
 {
-    int quantidadeBombonPimenta;
-    int quantidadeBombonRosa;
-    int quantidadeBombonAoLeite;
-    double precoBombomPimenta;
-    double precoBombomRosa;
-    double precoBombomAoLeite;
-
+    int quantidadeBombonPimenta, quantidadeBombonRosa, quantidadeBombonAoLeite;
+    double precoBombomPimenta, precoBombomRosa, precoBombomAoLeite;
     cout << "==== Olá Vendedor ====" << endl;
     cout << "Informe o valor do preco do Bombom de Pimenta: " << endl;
     cin >> precoBombomPimenta;
