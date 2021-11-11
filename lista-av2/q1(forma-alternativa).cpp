@@ -4,45 +4,44 @@
 using namespace std;
 int main()
 {
-    int age;
-    int weight;
-    double height;
+    int ages[10];
+    int weights[10];
+    double heights[10];
     int sumAges = 0;
     double average;
     int peopleWeighingMorethan90AndHeightLessThan150 = 0;
     int peopleWhoMeasureMoreThan190 = 0;
     int peopleAgedBetween10And30YearsOld = 0;
-    float porc = 0;
+    
 
     for (int i = 0; i < 10; i++)
     {
         cout << "Insira uma idade: ";
-        cin >> age;
+        cin >> ages[i];
         cout << "" << endl;
-        sumAges += age;
+        sumAges += ages[i];
         cout << "Insira um peso: ";
-        cin >> weight;
+        cin >> weights[i];
         cout << "" << endl;
         cout << "Insira uma altura: ";
-        cin >> height;
+        cin >> heights[i];
         cout << "" << endl;
 
-        if (weight > 90 && height < 1.50)
+        if (weights[i] > 90 && heights[i] < 1.50)
         {
             peopleWeighingMorethan90AndHeightLessThan150 += 1;
         }
 
-        if (height > 1.90)
+        if (heights[i] > 1.90)
         {
             peopleWhoMeasureMoreThan190 += 1;
-            if (age >= 10 && age <= 30)
+            if (ages[i] >= 10 && ages[i] <= 30)
             {
                 peopleAgedBetween10And30YearsOld += 1;
             }
         }
     }
     average = sumAges / 10;
-    cout << sumAges << endl;
     cout << fixed << setprecision(4);
     cout << "Media das idades: " << average << endl;
     cout << "" << endl;
