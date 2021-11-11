@@ -32,7 +32,6 @@ int main()
 
         if (height > 1.90)
         {
-            peopleWhoMeasureMoreThan190 += 1;
             if (age >= 10 && age <= 30)
             {
                 peopleAgedBetween10And30YearsOld += 1;

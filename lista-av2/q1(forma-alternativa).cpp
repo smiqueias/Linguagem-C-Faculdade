@@ -12,7 +12,6 @@ int main()
     int peopleWeighingMorethan90AndHeightLessThan150 = 0;
     int peopleWhoMeasureMoreThan190 = 0;
     int peopleAgedBetween10And30YearsOld = 0;
-    
 
     for (int i = 0; i < 10; i++)
     {
@@ -34,7 +33,6 @@ int main()
 
         if (heights[i] > 1.90)
         {
-            peopleWhoMeasureMoreThan190 += 1;
             if (ages[i] >= 10 && ages[i] <= 30)
             {
                 peopleAgedBetween10And30YearsOld += 1;
