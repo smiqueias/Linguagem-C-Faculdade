@@ -33,7 +33,7 @@ int main()
     cout << fixed << setprecision(2);
     cout << "Soma dos numeros pares: " << sumEvenNumbers << endl;
     cout << "" << endl;
-    cout << setprecision(3) << "Media dos numeros impares: " << sumOddNumbers / totalEvenNumbers << endl;
+    cout << setprecision(3) << "Media dos numeros impares: " << oddNumberAverage << endl;
     cout << "Produto final: " << sumEvenNumbers * oddNumberAverage << endl;
 
     return 0;
