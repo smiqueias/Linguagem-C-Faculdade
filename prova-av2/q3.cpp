@@ -8,7 +8,7 @@ int main()
 
     for (int i = 0; i < 10; i++)
     {
-        cout << "Digite um numero inteiro. Ex: 2.5 " << endl;
+        cout << "Digite um numero real. Ex: 2.5 " << endl;
         cin >> numeroInteiro;
         somaNumerosInteiros += numeroInteiro;
 
